@@ -3,9 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-       int ticketPrice = 15600;
-       int bonusPercentage = 20;
-       int bonuses = ticketPrice / bonusPercentage;
+        int ticketPrice = 15600;
+        int bonusPercentage = 20;
+        int bonuses = ticketPrice / bonusPercentage;
         System.out.println(bonuses);
     }
 }
