@@ -3,9 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ticketPrice = 15600;
-        int bonusPercentage = 20;
-        int bonuses = ticketPrice / bonusPercentage;
-        System.out.println(bonuses);
+        BonusMilesService service = new BonusMilesService();
+        int price = 150000;
+        int miles = service.calculate(price); // должно получиться 500
+        System.out.println(miles);
     }
 }
